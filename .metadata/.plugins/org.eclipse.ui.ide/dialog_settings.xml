@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\PC-04\Desktop\MelonPlateServer"/>
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="C:\Users\PC-04\Desktop\MelonPlateClient.zip"/>
+			<item value="C:\Users\PC-04\Desktop\0427.zip"/>
+			<item value="C:\Users\PC-04\Desktop\workspace\workspace.zip"/>
+			<item value="C:\Users\PC-04\Desktop\highjava.zip"/>
+			<item value="C:\Users\PC-04\Desktop\java_0424.zip"/>
+			<item value="C:\Users\PC-04\Desktop\새 폴더 (3)\java_crypto.zip"/>
+			<item value="C:\Users\PC-04\Desktop\ibaties게시판연동.zip"/>
+			<item value="C:\Users\PC-04\Desktop\MvcTest.zip"/>
+			<item value="C:\Users\PC-04\Desktop\iBatisTest.zip"/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="540" key="DIALOG_X_ORIGIN"/>
+		<item value="326" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

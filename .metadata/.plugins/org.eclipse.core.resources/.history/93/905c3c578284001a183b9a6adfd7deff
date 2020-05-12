@@ -1,0 +1,17 @@
+package homework3;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.TextField;
+import javafx.scene.control.Button;
+import javafx.scene.control.TableView;
+
+public class Controll {
+
+	@FXML ComboBox combox;
+	@FXML TextField textfield;
+	@FXML Button btn;
+	@FXML TableView tableview;
+	@FXML public void btnClick() {}
+
+}

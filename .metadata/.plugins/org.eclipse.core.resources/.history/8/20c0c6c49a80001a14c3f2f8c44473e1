@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="homework2.Controll" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button onAction="#btnClicked" fx:id="btn" layoutX="17.0" layoutY="116.0" mnemonicParsing="false" text="Button" />
+      <Label layoutX="23.0" layoutY="22.0" text="이  름 : " />
+      <Label layoutX="23.0" layoutY="56.0" text="성  별 : " />
+      <Label layoutX="23.0" layoutY="89.0" text="취  미 : " />
+      <CheckBox fx:id="chk1" layoutX="77.0" layoutY="89.0" mnemonicParsing="false" text="여 행" />
+      <CheckBox fx:id="chk2" layoutX="126.0" layoutY="89.0" mnemonicParsing="false" text="등 산" />
+      <CheckBox fx:id="chk3" layoutX="182.0" layoutY="89.0" mnemonicParsing="false" text="독 서" />
+      <CheckBox fx:id="chk4" layoutX="231.0" layoutY="89.0" mnemonicParsing="false" text="바 둑" />
+      <CheckBox fx:id="chk5" layoutX="286.0" layoutY="89.0" mnemonicParsing="false" text="장 기" />
+      <CheckBox fx:id="chk6" layoutX="335.0" layoutY="89.0" mnemonicParsing="false" text="게 임" />
+      <CheckBox fx:id="chk7" layoutX="392.0" layoutY="89.0" mnemonicParsing="false" text="테니스" />
+      <CheckBox fx:id="chk8" layoutX="457.0" layoutY="89.0" mnemonicParsing="false" text="배드민턴" />
+      <RadioButton fx:id="rb1" layoutX="80.0" layoutY="56.0" mnemonicParsing="false" text="남자" />
+      <RadioButton fx:id="rb2" layoutX="148.0" layoutY="56.0" mnemonicParsing="false" text="여자" />
+      <TextArea fx:id="text" layoutX="25.0" layoutY="170.0" prefHeight="200.0" prefWidth="508.0" />
+      <TextField fx:id="name" layoutX="79.0" layoutY="18.0" />
+   </children>
+</Pane>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;homework.hw20200324&apos; to &apos;Hotel&apos;&#x0D;&#x0A;- Original project: &apos;homework&apos;&#x0D;&#x0A;- Original element: &apos;homework.hw20200324&apos;&#x0D;&#x0A;- Renamed element: &apos;homework.Hotel&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;hw20200324&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;homework{hw20200324.java[hw20200324" matchStrategy="1" name="Hotel" qualified="false" references="true" similarDeclarations="false" stamp="1584959365015" textual="false" version="1.0"/>
+</session>

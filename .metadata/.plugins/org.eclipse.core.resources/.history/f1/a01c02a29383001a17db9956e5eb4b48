@@ -1,0 +1,13 @@
+package kr.or.ddit.udp;
+
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+
+public class UdpServer {
+	private DatagramSocket socket;
+	
+	public void start() {
+		socket = new DatagramSocket(8888);
+		
+	}
+}

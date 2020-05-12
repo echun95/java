@@ -1,0 +1,19 @@
+package kr.or.ddit.basic;
+
+/*
+ * JSON : Javascript Object Notation
+ * JSON은 데이터를 저장하거나 교환하기 위한 문법
+ * JSON은 자바스크립트 오브젝트 표현방식으로 작성한 문자열임
+ * 
+ * - JSON에서 value값으로 가능한 데이터 타입
+ * 1.String
+ * 2.number
+ * 3.object (JSON Object)
+ * 4.array
+ * 5.boolean
+ * 6.null
+ * 
+ */
+public class JsonSimpleWriterTest {
+
+}

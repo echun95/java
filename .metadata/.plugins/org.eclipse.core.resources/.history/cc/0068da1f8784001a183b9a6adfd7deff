@@ -1,0 +1,36 @@
+package homework3;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.TextField;
+import kr.or.ddit.basic.MemberVO;
+import javafx.scene.control.Button;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TableColumn;
+
+public class Controll {
+
+	@FXML ComboBox combox;
+	@FXML TextField textfield;
+	@FXML Button btn;
+	@FXML TableView<MemberVO> tableview;
+	@FXML TableColumn<MemberVO,String> num;
+	@FXML TableColumn<MemberVO,String> sido;
+	@FXML TableColumn<MemberVO,String> gugun;
+	@FXML TableColumn<MemberVO,String> dong;
+	@FXML TableColumn<MemberVO,String> bungi;
+	
+	
+	public void initialize() {
+		
+		
+	}
+	
+	
+	
+	
+	@FXML public void btnClick() {
+		
+	}
+
+}

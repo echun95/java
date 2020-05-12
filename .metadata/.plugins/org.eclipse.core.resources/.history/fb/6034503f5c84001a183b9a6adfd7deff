@@ -1,0 +1,43 @@
+package kr.or.ddit.rmi.server;
+
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+import java.util.List;
+
+import kr.or.ddit.rmi.inf.RemoteInterface;
+import kr.or.ddit.rmi.vo.FileInfoVO;
+import kr.or.ddit.rmi.vo.TestVO;
+
+//RMI용 서비스를 제공하는 객체는 RMI용 인터페이스를 구현하고 UnicastRemoteObject객체를 상속해서 작성한다.
+
+public class RemoteServer extends UnicastRemoteObject implements RemoteInterface{
+	//RMI용 인터페이스를 구현한 객체의 생성자도 RemoteException을 throws 하도록 작성한다.
+	protected RemoteServer() throws RemoteException{
+		super();
+	}
+
+	@Override
+	public int doRemotePrint(String str) throws RemoteException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void doPrintList(List<String> list) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void doPrintVo(TestVO VO) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setFiles(FileInfoVO[] fInfo) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

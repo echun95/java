@@ -1,0 +1,34 @@
+package kr.or.ddit.udp;
+
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.SocketException;
+
+public class UdpServer {
+	private DatagramSocket socket;
+	
+	public void start() throws IOException {
+		socket = new DatagramSocket(8888);	//포트8888번 사용하는 소캣생성
+		DatagramPacket inPacket, outPacket; //패킷송수신을 위한 객체변수생성
+		
+		byte[] inMsg = new byte[1]; //패킷수신을 위한 바이트 배열 선언
+		byte[] outMsg; //패킷 송신을 위한 바이트 배열 선언
+		
+		while(true) {
+			//데이터를 수신하기 위한 패킷
+			inPacket = new DatagramPacket(inMsg, inMsg.length);
+			System.out.println("패킷 수신 대기중...");
+			
+			//패킷을 통해 데이터를 수신(receive)한다.
+			socket.receive(inPacket);
+			
+			System.out.println("패킷 수신 완료.");
+		}
+		
+		
+		
+		
+		
+	}
+}
